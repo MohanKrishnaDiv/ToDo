@@ -1,0 +1,8 @@
+<div *ngFor="let item of data;let i=index;" class="dis">
+    <div class="disIn">
+        <div>Name:{{item[0]}}</div>
+        <div>Description:{{item[1]}}</div>
+    </div>
+    
+    <button (click)="deleteItemOnClick(i)">Delete</button>
+</div>

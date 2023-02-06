@@ -1,0 +1,10 @@
+.dis{
+    display: flex;
+    justify-content: space-between;
+}
+.disIn{
+    display: flex;
+}
+.disIn div{
+    padding: 20px;
+}
